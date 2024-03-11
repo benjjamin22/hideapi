@@ -6,7 +6,7 @@ const apicache = require('apicache')
 
 // Env vars
 
-const API_BASE_URL = process.env.API_BASE_URL
+const API_BASE_URL = 'https://mydatabase.com.ng/css/data.json'
 
 // Init cache
 let cache = apicache.middleware
